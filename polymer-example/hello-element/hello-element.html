@@ -2,18 +2,20 @@
 <dom-module id="hello-element">
 <style>
 	:host{
-		display:inline-block;
+		display:block;
+		border:1px solid #ddd;
 	}
 	#cheburashka{
 		font-size:32px;
 		font-family:Helvetica, san-serif;
 		color:lime;
-		border:1px solid blue;
+		
 	}
 </style>
 <template>
 	<div id="cheburashka">
-		<p>Hello!</p>
+		<!-- <p>Hello!</p> -->
+		<content></content>
 	</div>
 </template>
 <script>
