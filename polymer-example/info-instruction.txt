@@ -1,3 +1,4 @@
 https://www.webcomponents.org/
 https://www.polymer-project.org/
 http://customelements.io
+https://github.com/Polumer/vulcanize

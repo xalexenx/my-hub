@@ -1,0 +1,29 @@
+ <link rel="import" href="/bower_components/polymer/polymer.html">
+ <dom-module id="slider-element">
+	<style>
+		:host{
+			display:inline-block;
+		}
+		.slide-executor{
+			width:790px;
+			height:200px;
+			display:inline-block;
+			vertical-align:top;
+			background:#0f0;
+			
+		}
+		.slide-executor__left{}
+		.slide-executor__right{}
+		.slide-executor__elements-slide{}
+	</style>
+	<template id="slider">
+	<div class="slide-executor">
+		<div class="slide-executor__left"></div>
+		<div class="slide-executor__right"></div>
+		<div class="slide-executor__elements-slide"></div>
+	</div>
+	</template>
+	<script>
+		Polymer({is:"slider-element"});
+	</script>
+ </dom-module>

@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:0;
+	outline:0;
+}
+html,body{
+	height:100%;
+}
+.wrapper{
+	width:1000px;
+	background:#ffc0f0;
+	margin:auto;
+	min-height:100%;
+}
+header,aside,main,section{
+	padding:10px;
+}
+
+.preview{
+	width:100%;
+}
+.preview__context{
+	width:350px;
+	height:300px;
+	display:inline-block;
+	background:#0ff;
+	vertical-align:top;
+}
+.preview__foto{
+	width:380px;
+	height:300px;
+	display:inline-block;
+	background:#f0f;
+	vertical-align:top;
+}
+.preview__executor{
+	width:250px;
+	height:300px;
+	display:inline-block;
+	background:#ff0;
+	vertical-align:top;
+}
+
+.calendar{ 
+	width:180px;
+	height:200px;
+	margin-right:10px;
+	display:inline-block;
+	vertical-align:top;
+	background:#ffd;
+}
+.calendar__logo{}
+.calendar__text{}
+
+
+.information{
+	 width:400px; 
+	 height:300px;
+	 margin-right:10px;
+	 display:inline-block;
+	 vertical-align:top;
+	 background:#ff0;
+	 
+}
+.information__profile{}
+.information__menu{}
+.information__status{}
+
+.buybox{
+	width:200px; 
+	height:300px;
+	margin-right:10px;
+	display:inline-block;
+	vertical-align:top;
+	background:#00f;
+}
+.buybox__title{}
+.buybox__context{}
+.buybox__price{}
+.buybox__button{}
+
+.play-block{
+	width:360px;
+	display:inline-block;
+	vertical-align:top;
+}
+.play-show{
+	height:100px;
+	background:#ff00cc;
+	margin-bottom:10px;
+}
+.play-show__status{}
+.play-show__settings{}
+
+.play-chart{
+	height:190px;
+	background:#ffcc00;
+}
+.play-chart__title{}
+.play-chart__top-chart{}
+.play-chart__passenger{}
+
+.top-music{
+	width:400px;
+	height:300px;
+	margin-right:10px;
+	background:#ff00cc;
+	display:inline-block;
+	vertical-align:top;
+}
+.top-music__name{}
+.top-music__select{}
+
+.player-box{
+	width:570px;
+	height:300px;
+	background:#ff00cc;
+	display:inline-block;
+	vertical-align:top;
+}
+.player-box__preview
+.player-box__settings
