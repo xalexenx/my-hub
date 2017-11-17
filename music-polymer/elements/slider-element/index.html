@@ -7,20 +7,54 @@
 		.slide-executor{
 			width:790px;
 			height:200px;
+			position:relative;
 			display:inline-block;
 			vertical-align:top;
 			background:#0f0;
-			
 		}
-		.slide-executor__left{}
-		.slide-executor__right{}
-		.slide-executor__elements-slide{}
+		.slide-executor__left{
+			display:inline-block;
+			width:50px;
+			height:100%;
+			font-size:20px;
+			color:#fff;
+			background:#f00;
+			line-height:200px;
+			text-align:center;
+		}
+		.slide-executor__right{	
+			display:inline-block;
+			width:50px;
+			height:100%;
+			position:absolute;
+			left:-50px;
+			font-size:20px;
+			color:#fff;
+			margin-left:100%;
+			background:#f00;
+			line-height:200px;
+			text-align:center;
+		}
+		.slide-executor__elements-slide{
+			width:100px;
+			height:100px;
+			margin:50px 20px;
+			display:inline-block;
+			vertical-align:middle;
+			border-radius:50%;
+			background:#ff0;
+		}
+		
 	</style>
 	<template id="slider">
 	<div class="slide-executor">
-		<div class="slide-executor__left"></div>
-		<div class="slide-executor__right"></div>
+		<div class="slide-executor__left">&lt;</div>
 		<div class="slide-executor__elements-slide"></div>
+		<div class="slide-executor__elements-slide"></div>
+		<div class="slide-executor__elements-slide"></div>
+		<div class="slide-executor__elements-slide"></div>
+		<div class="slide-executor__elements-slide"></div>
+		<div class="slide-executor__right">></div>
 	</div>
 	</template>
 	<script>
