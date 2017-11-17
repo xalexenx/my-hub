@@ -1,8 +1,28 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<dom-module id="hello-element">
+<style>
+	:host{
+		display:inline-block;
+	}
+	#cheburashka{
+		font-size:32px;
+		font-family:Helvetica, san-serif;
+		color:lime;
+		border:1px solid blue;
+	}
+</style>
+<template>
+	<div id="cheburashka">
+		<p>Hello!</p>
+	</div>
+</template>
 <script>
-	Polymer({
+	Polymer({is:"hello-element"});
+</script>
+</dom-module>
+
+<!-- Polymer({
 		is:"hello-element",ready:function(){
 		this.textContent = "Я - тэг hello-element!"
 		}
-	});
-</script>
+	}); -->
