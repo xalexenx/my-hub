@@ -1,0 +1,20 @@
+{
+  "name": "polymer-example",
+  "homepage": "https://github.com/xalexenx/my-hub",
+  "authors": [
+    "Alex-Bel <dgb.adm@gus-dgb.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.2.0"
+  }
+}
