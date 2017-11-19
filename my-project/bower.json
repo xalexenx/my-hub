@@ -1,0 +1,20 @@
+{
+  "name": "my-project",
+  "homepage": "https://github.com/xalexenx/my-hub",
+  "authors": [
+    "xalexenx <dgb.adm@gus-dgb.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.2.0"
+  }
+}

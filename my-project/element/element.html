@@ -1,0 +1,24 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<dom-module id="my-element">
+<style>
+    :host{
+        display:block;
+        width:300px;
+        height:200px;
+        margin:100px auto;
+        background:#ff0;
+    }
+    p{
+        padding:10px;
+        border:5px solid #ffc0da;
+    }
+</style>
+<template>
+    <p><content></content></p>
+    <p>Еще содержимое блока</p>
+    <p>Еще содержимое блока</p>
+</template>
+<script>
+    Polymer({is:"my-element"});
+</script>
+</dom-module>
